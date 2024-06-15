@@ -1,0 +1,90 @@
+<svg fill="none" viewBox="0 0 800 350" width="800" height="350" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&amp;display=swap');
+        <!-- @import url('https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap'); -->
+        body {
+          font-family:'Roboto', sans-serif;
+          background-color: #131417;  
+        }
+        p {
+          text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+          font-family:'Roboto', sans-serif;
+        }
+        .container {
+          color: #e5e5e5;
+          font-size: 2.26rem;
+          text-transform: uppercase;
+          height: 80vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .animation {
+          height:50px;
+          overflow:hidden;
+          margin-left: 1rem;
+        }
+
+        .animation > div > div {
+          padding: 0.25rem 0.75rem;
+          height:2.81rem;
+          margin-bottom: 2.81rem;
+          display:inline-block;
+        }
+
+        .animation div:first-child {
+          animation: text-animation 8s infinite;
+        }
+
+      .first div {
+        font-family:'Roboto', sans-serif;
+          background-color:#20a7d8;
+      }
+      .second div {
+        font-family:'Roboto', sans-serif;
+          background-color:#CD921E;
+      }
+      .third div {
+        font-family:'Roboto', sans-serif;
+          background-color:#c10528;
+      }
+      .fourth div {
+          font-family:'Roboto', sans-serif;
+          background-color:#32CD32;
+      }
+
+      @keyframes text-animation {
+          0% {margin-top: 0;}
+          8% {margin-top: 0;}
+          16% {margin-top: -5.62rem;}
+          24% {margin-top: -5.62rem;}
+          32% {margin-top: -11.24rem;}
+          40% {margin-top: -11.24rem;}
+          48% {margin-top: -16.86rem;}
+          56% {margin-top: -16.86rem;}
+          64% {margin-top: -11.24rem;}
+          72% {margin-top: -11.24rem;}
+          80% {margin-top: -5.62rem;}
+          84% {margin-top: -5.62rem;}
+          92% {margin-top: 0;}
+          100% {margin-top: 0;}
+      }
+
+      </style>
+
+      <main class="container">
+          <p>Hello 👋 I'm</p>
+          <section class="animation">
+            <div class="first"><div>Tharu Gamage</div></div>
+            <div class="second"><div>a Freshgraduate | IIT</div></div>
+            <div class="third"><div>a Software Tester</div></div>
+            <div class="fourth"><div>Quality Focused</div></div>
+          </section>
+      </main>
+    </div>
+  </foreignObject>
+</svg>
